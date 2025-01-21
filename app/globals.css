@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  padding-left: 4rem;
+  transition: padding-left 0.3s ease-in-out;
+}
+
+.menu-expanded {
+  padding-left: 16rem;
+}
+
+.menu-collapsed {
+  padding-left: 4rem;
+}
+
+@media (max-width: 768px) {
+  body,
+  .menu-expanded,
+  .menu-collapsed {
+    padding-left: 0;
+  }
+}
+
