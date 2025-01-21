@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { useToast } from "@/components/ui/use-toast"
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL
+const API_URL = "193.30.122.188:3000"
 
 export default function ConnectionTest() {
   const [serverStatus, setServerStatus] = useState<string>("Unbekannt")
